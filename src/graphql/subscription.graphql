@@ -1,0 +1,7 @@
+subscription ObservePetriDish($id: ID!) {
+  observer(id: $id) {
+    tickStamp
+    petriDishID
+    data
+  }
+}

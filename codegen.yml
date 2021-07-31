@@ -1,8 +1,6 @@
 overwrite: true
 schema:
-  "https://graphqlzero.almansi.me/api":
-    headers:
-      "Authorization": "Bearer <YOUR-TOKEN>"
+  "http://localhost:8080/query":
 documents: "src/graphql/**/*.graphql"
 generates:
   src/integration/graphql.tsx:
